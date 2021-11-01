@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+
+  <!-- charset og encoding for at den kan læse å ø æ -->
+  <meta charset="utf-8" />
+
+  <!-- Dette giver browseren instruktioner om, hvordan jeg styrer sidens dimensioner og skalering. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Social media icons hentes fra fontawesome  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Eksternal css fil kaldes her -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- angiver title for HTML siden som visses I browser bar. -->
+  <title> Retshjælpen Fyn </title>
+</head>
+
+<body>
+
+  <!-- Header defineres her med nav  -->
+  <header>
+    <nav>
+      <!-- Her defineres nav logo, og en checkbox input til at vise og skjule header -->
+      <!-- input defineres med type checkbox, hvis checkbox er tjekket skjules ellers visses den -->
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fa fa-bars"></i>
+      </label>
+      <span class="logo"><a href="index.html"> Retshjælpen </a></span>
+
+      <!--Unordered list og dens list items som indhold a tag med hyperlink-->
+      <ul>
+       <li><a href="OmOs.html">Om Os</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+        
+
+      </ul>
+    </nav>
+  </header>
+  <section class="banner2">
+    <div class="content">
+      <h1>Om Os</h1>
+      <p style="font-size:24px;">Retshjælpen Fyn Og Venner er en Støtteforening for Retshjælpen Fyn</p>
+    </div>
+  </section>
+  <!-- Portfolio -->
+  
+  <!-- Kontakt Os section defineres her -->
+  <section class="kontakt">
+    <h2 class="title2 cWhite">Kontakt Os</h2>
+    <hr class="hr">
+    <p class="cWhite txt">For yderligere info så smid endelig en mail! </br>
+      Man er også velkommen til at ringe eller kontakte os gennem de sociale medier.
+    </p>
+    <div class="wrapper">
+      <div class="card">
+        <div class="card-body">
+          <i class="fa fa-phone"></i>
+          <h2>Telefon nr: </h2>
+          <span> Odense +45 61 73 70 43 </span>
+          <br>
+          
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <i class="fa fa-envelope"></i>
+          <h2><a href="https://blog.abdisamed.dk/kontakt/" style="color:white;"> Email </a></h2>
+          <span> sikkermail@retshjaelpenfynsikkermail.dk</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer defineres her -->
+  <footer>
+    <div class="footer-content">
+      <ul class="socials">
+        <li><a href="https://www.facebook.com/Mohamed.Abdisamed"><i class="fa fa-facebook"></i></a></li>
+        
+        <li><a href="https://dk.linkedin.com/in/mohamed-abdisamed-97496982"><i class="fa fa-linkedin-square"></i></a></li>
+        
+      </ul>
+    </div>
+  </footer>
+</body>
+
+</html>
