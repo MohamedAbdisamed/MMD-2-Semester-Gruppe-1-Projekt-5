@@ -84,10 +84,6 @@ a:hover{
   margin: auto;
 }
 
-/* Skjuler billedet som standard */
-.mySlides {
-  display: none;
-
 /* frem og tilbage knapper*/
   .prev .next{
     cursor: pointer;
@@ -136,6 +132,23 @@ a:hover{
   background-color: #717171;
 }
 
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
 
 
 /* input tag for checkbox som viser og skjuler navigationen */
