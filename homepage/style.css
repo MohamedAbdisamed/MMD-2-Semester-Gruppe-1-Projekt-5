@@ -785,3 +785,118 @@ color: black;
   font-size: 12px;
 
 }
+
+/*Bliv medlem side*/
+
+h1 {
+  text-align: center;
+  font-family: Kohinoor Bangla;
+  padding: 30px;
+  margin-top: 60px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: Kohinoor Bangla;
+}
+
+input[type=submit] {
+  background-color: #E0674D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-left: 170px;
+  font-family: Kohinoor Bangla;
+}
+
+input[type=submit]:hover {
+  background-color: #ABB5A9;
+  color: white;
+}
+
+.container {
+  width: 40%;
+  border-radius: 70px;
+  background-color: #f2f2f2;
+  padding: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+}
+
+section {
+  padding: 50px 0px;
+}
+
+
+button {
+  text-align: center;
+  padding: 12px 20px;
+}
+
+
+p {
+  text-align: center;
+  font-family: Kohinoor Bangla;
+}
+
+/*Kontakt side*/
+
+.container2 {
+  width: 40%;
+  border-radius: 70px;
+  background-color: #f2f2f2;
+  padding: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: Kohinoor Bangla;
+}
+
+input[type=sent] {
+  background-color: #00194E;
+  color: white;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-left: 300px;
+  font-family: Kohinoor Bangla;
+  text-align: center;
+}
+
+input[type=sent]:hover {
+  background-color: #ABB5A9;
+  color: white;
+}
+
+.contactinformation {
+  text-align: left;
+  margin-left: 500px;
+  margin-top: 30px;
+}
+
+.contacthours {
+  text-align: left;
+  margin-left: 500px;
+}
