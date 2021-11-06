@@ -37,55 +37,59 @@
   </header>
 
 
-      <main>
+  <main>
 
-        <h1>Bliv medlem</h1>
+    <h1>Bliv medlem</h1>
 
-        <button type="button" name="button" onclick="contactFunction()">Privat</button>
-        <button type="button" name="button" onclick="contactFunction()">Virksomhed</button>
+    <button class="privat" type="button" name="button">Privat</button>
+    <button class="virksomhed" type="button" name="button">Virksomhed</button>
 
-        <section>
+    <section>
 
-          <div class="container">
-            <form action="action_page.php">
+      <div class="container">
+        <form action="action_page.php">
 
-              <label for="fornavn"></label>
-              <input type="text" id="fornavn" name="fornavn" placeholder="Fornavn">
+          <label for="fornavn"></label>
+          <input type="text" id="fornavn" name="fornavn" placeholder="Fornavn">
 
-              <label for="efternavn"></label>
-              <input type="text" id="efternavn" name="efternavn" placeholder="Efternavn">
+          <label for="efternavn"></label>
+          <input type="text" id="efternavn" name="efternavn" placeholder="Efternavn">
 
-              <label for="adresse"></label>
-              <input type="text" id="adresse" name="adresse" placeholder="Adresse">
+          <label for="adresse"></label>
+          <input type="text" id="adresse" name="adresse" placeholder="Adresse">
 
-              <label for="postnummer"></label>
-              <input type="text" id="postnummer" name="postnummer" placeholder="Postnummer">
+          <label for="postnummer"></label>
+          <input type="text" id="postnummer" name="postnummer" placeholder="Postnummer">
 
-              <label for="by"></label>
-              <input type="text" id="by" name="by" placeholder="By">
+          <label for="by"></label>
+          <input type="text" id="by" name="by" placeholder="By">
 
-              <label for="email"></label>
-              <input type="text" id="email" name="email" placeholder="Email">
+          <label for="email"></label>
+          <input type="text" id="email" name="email" placeholder="Email">
 
-              <label for="telefon"></label>
-              <input type="text" id="telefon" name="telefon" placeholder="Telefon">
+          <label for="telefon"></label>
+          <input type="text" id="telefon" name="telefon" placeholder="Telefon">
 
-              <label for="beløb"></label>
-              <input type="text" id="beløb" name="beløb" placeholder="Beløb i kr.">
+          <label for="beløb"></label>
+          <input type="text" id="beløb" name="beløb" placeholder="Beløb i kr.">
 
-              <p> Vælg betalingsmetode: </p>
+          <p> Vælg betalingsmetode: </p>
+          <br>
 
-              <button type="button" name="button" onclick="contactFunction()">Mobilepay</button>
-              <button type="button" name="button" onclick="contactFunction()">Betal med kort</button>
+          <button class="mobilepay" type="button" name="button">Mobilepay</button>
+          <button class="kort" type="button" name="button">Kort</button>
+          <br>
+          <br>
+          <br>
+          <button class="betal" onclick="myFunction()">Gå til betaling</button>
 
-              <input type="submit" value="Gå til betaling">
 
-            </form>
-          </div>
+        </form>
+      </div>
 
-        </section>
+    </section>
 
-      </main>
+  </main>
 
   <!-- Footer defineres her -->
   <footer>

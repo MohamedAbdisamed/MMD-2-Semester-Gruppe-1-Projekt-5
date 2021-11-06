@@ -860,7 +860,7 @@ color: black;
 
 }
 
-/*Bliv medlem side*/
+/* Bliv medlem side*/
 
 h1 {
   text-align: center;
@@ -868,6 +868,30 @@ h1 {
   padding: 30px;
   margin-top: 60px;
 }
+
+.privat {
+  background-color: #ABB5A9;
+  color: white;
+  padding: 12px 40px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-left: 590px;
+  font-family: Kohinoor Bangla;
+}
+
+.virksomhed {
+  background-color: #ABB5A9;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Kohinoor Bangla;
+}
+
 
 input[type=text], select, textarea {
   width: 100%;
@@ -881,21 +905,37 @@ input[type=text], select, textarea {
   font-family: Kohinoor Bangla;
 }
 
-input[type=submit] {
+.mobilepay {
+  color: black;
+  padding: 12px 20px;
+  border-style: solid;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-left: 110px;
+  font-family: Kohinoor Bangla;
+}
+
+.kort {
+  color: black;
+  padding: 12px 40px;
+  border-style: solid;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Kohinoor Bangla;
+  }
+
+  .betal {
   background-color: #E0674D;
   color: white;
   padding: 12px 20px;
   border: none;
   border-radius: 12px;
   cursor: pointer;
-  margin-left: 170px;
+  margin-left: 160px;
   font-family: Kohinoor Bangla;
-}
-
-input[type=submit]:hover {
-  background-color: #ABB5A9;
-  color: white;
-}
+  }
 
 .container {
   width: 40%;
@@ -909,12 +949,6 @@ input[type=submit]:hover {
 
 section {
   padding: 50px 0px;
-}
-
-
-button {
-  text-align: center;
-  padding: 12px 20px;
 }
 
 
