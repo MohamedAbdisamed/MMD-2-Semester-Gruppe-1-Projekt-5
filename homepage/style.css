@@ -947,19 +947,19 @@ input[type=text], select, textarea {
   font-family: Kohinoor Bangla;
 }
 
-input[type=sent] {
+input[type=submit] {
   background-color: #00194E;
   color: white;
-  padding: 10px 10px;
+  padding: 10px 20px;
   border: none;
   border-radius: 12px;
   cursor: pointer;
-  margin-left: 300px;
+  margin-left: 390px;
   font-family: Kohinoor Bangla;
   text-align: center;
 }
 
-input[type=sent]:hover {
+input[type=submit]:hover {
   background-color: #ABB5A9;
   color: white;
 }
