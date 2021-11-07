@@ -981,14 +981,14 @@ input[type=text], select, textarea {
   font-family: Kohinoor Bangla;
 }
 
-input[type=submit] {
+.send {
   background-color: #00194E;
   color: white;
   padding: 10px 20px;
   border: none;
   border-radius: 12px;
   cursor: pointer;
-  margin-left: 390px;
+  margin-left: 380px;
   font-family: Kohinoor Bangla;
   text-align: center;
 }
