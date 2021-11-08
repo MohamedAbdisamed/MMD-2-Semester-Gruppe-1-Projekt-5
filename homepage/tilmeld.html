@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- Eksternal css fil kaldes her -->
   <link rel="stylesheet" href="style.css">
-  <script src="blivmedlemprøve.js" defer ></script>
+  <script src="tilmeld.js" defer ></script>
   <!-- angiver title for HTML siden som visses I browser bar. -->
   <title> Støtteforening for retshjælpen Fyn Og Venner </title>
 </head>
@@ -31,7 +31,7 @@
         <li><a href="tilmeld.html">Giv Bidrag</a></li>
         <li><a href="OmOs.html">Om os</a></li>
         <li><a href="mødditnetværk.html">Mød dit netværk</a></li>
-        <li><a href="kontakt.html">Kontakt</a></li>
+        <li><a href="kontaktprøve.html">Kontakt</a></li>
 
       </ul>
     </nav>
@@ -42,10 +42,13 @@
 
         <h1>Enkelt bidrag</h1>
 
-        <button class="privat" type="button" name="button">Privat</button>
-        <button class="virksomhed" type="button" name="button">Virksomhed</button>
-
         <section>
+
+        <div class="mor">
+          <div class="knapperfar">
+            <button class="privat" type="button" name="button">Privat</button>
+            <button id="virksomhed" type="button" name="button">Virksomhed</button>
+          </div>
 
           <div class="container">
             <form action="action_page.php">
@@ -87,22 +90,74 @@
 
             </form>
           </div>
+        </div>
 
+          <div class="far">
+
+          <div class="knapperfar">
+            <button id="privat" type="button" name="button">Privat</button>
+            <button id="virksomhed" type="button" name="button">Virksomhed</button>
+          </div>
+
+          <div class="container2">
+            <form action="action_page.php">
+
+              <label for="virksomhed"></label>
+              <input type="text" id="virksomhedsnavn" name="virksomhed" placeholder="Virksomhed">
+
+              <label for="kontaktperson"></label>
+              <input type="text" id="kontaktperson" name="kontaktperson" placeholder="kontaktperson">
+
+              <label for="cvr"></label>
+              <input type="text" id="cvr" name="cvr" placeholder="CVR">
+
+              <label for="adresse"></label>
+              <input type="text" id="adresse" name="adresse" placeholder="Adresse">
+
+              <label for="postnummer"></label>
+              <input type="text" id="postnummer" name="postnummer" placeholder="Postnummer">
+
+              <label for="by"></label>
+              <input type="text" id="by" name="by" placeholder="By">
+
+              <label for="email"></label>
+              <input type="text" id="email" name="email" placeholder="Email">
+
+              <label for="telefon"></label>
+              <input type="text" id="telefon" name="telefon" placeholder="Telefon">
+
+              <label for="beløb"></label>
+              <input type="text" id="beløb" name="beløb" placeholder="Beløb i kr.">
+
+              <p> Vælg betalingsmetode: </p>
+              <br>
+
+              <button class="mobilepay" type="button" name="button">Mobilepay</button>
+              <button class="kort" type="button" name="button">Kort</button>
+              <br>
+              <br>
+              <br>
+              <button class="betal" onclick="myFunction()">Gå til betaling</button>
+
+
+            </form>
+          </div>
+        </div>
         </section>
 
       </main>
 
-  <!-- Footer defineres her -->
-  <footer>
-    <div class="footer-content">
-      <ul class="socials">
-        <li><a href="https://www.facebook.com/Mohamed.Abdisamed"><i class="fa fa-facebook"></i></a></li>
+      <!-- Footer defineres her -->
+      <footer>
+        <div class="footer-content">
+          <ul class="socials">
+            <li><a href="https://www.facebook.com/Mohamed.Abdisamed"><i class="fa fa-facebook"></i></a></li>
 
-        <li><a href="https://dk.linkedin.com/in/mohamed-abdisamed-97496982"><i class="fa fa-linkedin-square"></i></a></li>
+            <li><a href="https://dk.linkedin.com/in/mohamed-abdisamed-97496982"><i class="fa fa-linkedin-square"></i></a></li>
 
-      </ul>
-    </div>
-  </footer>
-</body>
+          </ul>
+        </div>
+      </footer>
+    </body>
 
-</html>
+    </html>

@@ -860,13 +860,27 @@ color: black;
 
 }
 
-/* Bliv medlem side*/
+/* Bliv medlem side og giv et bidrag side*/
 
 h1 {
   text-align: center;
   font-family: Kohinoor Bangla;
-  padding: 30px;
-  margin-top: 60px;
+  padding-top: 30px;
+  margin-top: 20px;
+}
+
+.knapperfar {
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 40px;
+}
+
+.knappermor {
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 40px;
 }
 
 .privat {
@@ -876,11 +890,24 @@ h1 {
   border: none;
   border-radius: 12px;
   cursor: pointer;
-  margin-left: 590px;
+  margin-right: auto;
+  margin-left: auto;
   font-family: Kohinoor Bangla;
 }
 
-.virksomhed {
+#privat {
+  background-color: #ABB5A9;
+  color: white;
+  padding: 12px 40px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Kohinoor Bangla;
+}
+
+#virksomhed {
   background-color: #ABB5A9;
   color: white;
   padding: 12px 20px;
@@ -892,8 +919,7 @@ h1 {
   font-family: Kohinoor Bangla;
 }
 
-
-input[type=text], input[type=email], select, textarea {
+input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -916,32 +942,43 @@ input[type=text], input[type=email], select, textarea {
 }
 
 .kort {
-  color: black;
-  padding: 12px 40px;
-  border-style: solid;
-  border-radius: 12px;
-  cursor: pointer;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: Kohinoor Bangla;
+    color: black;
+    padding: 12px 40px;
+    border-style: solid;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Kohinoor Bangla;
   }
 
   .betal {
-  background-color: #E0674D;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 12px;
-  cursor: pointer;
-  margin-left: 160px;
-  font-family: Kohinoor Bangla;
+    background-color: #E0674D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-left: 160px;
+    font-family: Kohinoor Bangla;
   }
+
+.mor {
+  display: flex;
+  flex-direction: column;
+}
+
+.far {
+  display: flex;
+  flex-direction: column;
+}
 
 .container {
   width: 40%;
   border-radius: 70px;
   background-color: #f2f2f2;
   padding: 60px;
+  display: flex;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 80px;
