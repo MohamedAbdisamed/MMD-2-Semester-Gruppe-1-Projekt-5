@@ -566,22 +566,8 @@ color: white;
 .imgSize2 img:hover {
   transform: scale(1.1);
 }
-.projectImg1 {
- background:url(/images/Klientrapport.jpeg);
- background-size: cover;
 
-}
 
-.xdportfolio
-{
- background:url(/images/web1.png);
- background-size: cover;
-}
-.projectImg2 {
- background:url(/images/projekt2/folder.jpg);
- background-size: cover;
-
-}
 
 .projectImg3 {
  background:url(/images/projekt3.png);
@@ -590,26 +576,16 @@ color: white;
 }
 
 
-
-.projectImg1:hover, .projectImg2:hover, .projectImg3:hover {
- transform: scale(1.1);
-}
-
 .title2{
 
 text-align:center;
 font-size: 36px;
 font-weight: 600;
 margin-bottom: 50px;
-color: black;
+color: white;
 }
 
-.kontakt-heading span{
-  color: #36b7b5;
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-}
+
 
 .kontakt-heading h3{
   color: #1c3548;
@@ -617,48 +593,6 @@ color: black;
   margin: 0;
   font-weight: 400;
   letter-spacing: 2px;
-}
-
-
-.btnPortfolio{
- position: relative;
- display: inline-block;
- width: 100%;
- padding: 10px 30px;
- text-decoration: none;
- font-size: 14px;
- color: #FFFFFF;
- background-color: #1db096;
- border-radius: 5px;
- border: none;
- box-shadow: 4px 10px 30px rgb(24,139, 119,0.2);
- text-align: center;
- display: flex;
-
- flex-wrap: wrap;
- justify-content: center;
- margin-top: 30px;
-}
-
-.btnBlog{
- position: relative;
- display: inline-block;
- padding: 10px 30px;
- text-decoration: none;
- font-size: 14px;
- color: white;
- background-color: #1db096;
- border-radius: 5px;
- border: none;
- box-shadow: 4px 10px 30px rgb(24,139, 119,0.2);
- text-align: center;
- display: flex;
- flex-wrap: wrap;
- justify-content: center;
- margin-top: 30px;
- margin:0 auto;
- width: 200px;
-
 }
 
 .cWhite{
@@ -693,20 +627,7 @@ color: black;
  }
 
 
- .omMig .contentMig, .omMig .img-box{
-   min-width: 100%;
-   width: 100%;
-   text-align: center;
-   padding-right: 0px;
- }
 
- .OmMig .omMigImg{
-   min-height: 250px;
- }
-
- .btn{
-   margin-bottom: 250px;
- }
 
  .kontakt-title{
    margin-top: -221px;
@@ -723,10 +644,6 @@ color: black;
  .coverImg{
    width: 100%;
 
- }
-
- .omMigImg img{
-   margin-top: 220px;
  }
 
 .marginTop250{
@@ -795,7 +712,7 @@ color: black;
    height: 20px;
 
  }
- .omMig .hr, .portfolio{
+.hr{
    margin: auto;
    margin-top:20px;
    margin-bottom: 20px;
@@ -822,9 +739,7 @@ color: black;
  height: auto;
  }
 
- .projectImg1, .projectImg2, .projectImg3{
-   width: 100%;
-   height: 500px;
+ 
  }
 
  .card-header{
@@ -838,8 +753,6 @@ color: black;
    transform: scale(1.0);
  }
 
- .mbottom{
-   margin-bottom: -50px;
  }
 
  .mtop{
@@ -1074,3 +987,72 @@ input[type=submit]:hover {
   }
 }
 
+/*network*/
+.network-heading h3, {
+  color: #1c3548;
+  font-size: 2rem;
+  margin: 0;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.p-box-container{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+margin: 20px 0px;
+}
+
+.p-box{
+  width: 310px;
+  height: 350px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  margin:66px;
+  box-shadow: 5px 10px 30px rgba(0,0,0,0.08);
+
+}
+
+.p-box img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+
+}
+
+.p-box strong{
+  color: #1c3548;
+  margin:0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 10px;
+}
+
+.p-box p{
+  color: #747474;
+  font-size: 0.9rem;
+  margin: 0px;
+  text-align: center;
+  display: block;
+  display: -webkit-box;
+  max-width: 80%;
+  padding: 20px;
+}
+
+.p-box a{
+  width: 140px;
+  margin-top: 20px;
+  border-radius: 0px;
+}
+
+.p-box:hover{
+  transform: translateY(-10px);
+  box-shadow: 5px 10px 30px rgba(0,0,0,0.1);
+  transition: all ease 0.2s;
+}
