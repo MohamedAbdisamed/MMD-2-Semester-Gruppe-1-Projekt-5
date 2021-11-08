@@ -1,5 +1,3 @@
-
-
 document.getElementById("virksomhed").addEventListener("click", function() {
  document.querySelector(".far").style.display = "flex";
  document.querySelector(".mor").style.display = "none";
