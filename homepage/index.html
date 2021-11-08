@@ -11,28 +11,24 @@
   <!-- Eksternal css fil kaldes her -->
   <link rel="stylesheet" href="style.css">
   <!-- angiver title for HTML siden som visses I browser bar. -->
-
   <title> Støtteforening for retshjælpen Fyn Og Venner </title>
 </head>
 
 <body>
-  <!-- Header defineres her med nav  -->
-  <header class="header dark maxwidth">
-    <H1><a href="/">Støtteforeningen for retshjælpen Fyns venner<span class="bar">Bar</span></a></H1>
-  <nav class="nav">
-      <div class="nav__burger-btn">
-          <div class="nav__burger"></div>
-      </div>
-      <ul class="nav__list">
-          <li class="nav__item center"><a href="#blivmedlem">Bliv Medlem</a></li>
-          <li class="nav__item center"><a href="#tilmeld">Giv bidrag</a></li>
-          <li class="nav__item center"><a href="#omos">Om os</a></li>
-          <li class="nav__item center"><a href="#ditnetværk">Dit netværk</a></li>
-          <li class="nav__item center"><a href="kontakt">kontakt</a></li>
+<header>
+  <nav>
+    <!-- Her defineres nav logo, og en checkbox input til at vise og skjule header -->
+    <i class="fa fa-bars iconMenu" onclick="myFunction()"></i>
+    <span class="logo"><a href="index.html"> Retshjælpen </a></span>
+    <!--Unordered list og dens list items -->
+    <ul id="menuItems">
+     <li><a href="blivmedlem.html">Bliv Medlem</a></li>
+      <li><a href="tilmeld.html">Giv Bidrag</a></li>
+      <li><a href="OmOs.html">Mød Dit Netværk</a></li>
+      <li><a href="kontakt.html">Kontakt</a></li>
     </ul>
   </nav>
 </header>
-
   <!-- Banner defineres her -->
   <section class="banner">
     <div class="content">
@@ -90,12 +86,10 @@
 <!-- Medlemmer -->
   <section class="medlemmer">
     <h2 class="title2">Medlemmer</h2>
-    <hr class="hr">
     <p class="projekttext">Her har vi nogle af vores bestyrelsesmedlemmer som vi synes alle skal have æren af at kende</br>
       Klik læs mere for at se de forskellige projekter
     </p>
     <div class="wrapper">
-
       <!--- Carousel -->
       <div class="carousel-container">
       <!-- Pictures -->
@@ -104,19 +98,16 @@
           <img src="https://images.unsplash.com/photo-1593642532454-e138e28a63f4?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1738&q=80" style="width:100%">
           <div class="textpic" >Caption text</div>
        </div>
-
         <div class="mySlides fade">
           <div class="numbertext" >2 / 3 </div>
           <img src="billeder/monkey.jpeg" style: width="100%">
           <div class="textpic" >Caption Two</div>
         </div>
-
         <div class="mySlides fade">
           <div class="numbertext" >3 / 3 </div>
           <img src="billeder/monkey.jpeg" style: width="100%">
           <div class="textpic" >Caption Three</div>
         </div>
-
           <!-- Next and previous buttons -->
         <a class="prev" onclick="plusSlides(-1)"> </a>
         <a class="next" onclick="plusSlides(1)"> </a>
@@ -174,4 +165,17 @@
 
 </html>
 <script src="carousel.js"></script>
-<script src="master.js"></script>
+<!--<script src="nav.js"></script>-->
+<script>
+   function myFunction() {
+  var menuItems = document.getElementById("menuItems");
+  if (menuItems.style.display === "none") {
+    menuItems.style.display = "block";
+  } else {
+    menuItems.style.display = "none";
+  }
+  }
+  </script>
+
+
+
