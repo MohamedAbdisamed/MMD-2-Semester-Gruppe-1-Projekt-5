@@ -1,58 +1,50 @@
 <!DOCTYPE html>
-<html lang="da">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="da" xml:lang="da">
 
 <head>
+ <!-- charset og encoding for at den kan læse å ø æ -->
+ <meta charset="utf-8" />
+ <!-- Dette giver browseren instruktioner om, hvordan jeg styrer sidens dimensioner og skalering. -->
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <!-- Social media icons hentes fra fontawesome  -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <!-- Eksternal css fil kaldes her -->
+ <link rel="stylesheet" href="style.css">
+ <!-- angiver title for HTML siden som visses I browser bar. -->
 
-  <!-- charset og encoding for at den kan læse å ø æ -->
-  <meta charset="utf-8" />
-
-  <!-- Dette giver browseren instruktioner om, hvordan jeg styrer sidens dimensioner og skalering. -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- Social media icons hentes fra fontawesome  -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-  <!-- Eksternal css fil kaldes her -->
-  <link rel="stylesheet" href="style.css">
-
-  <!-- angiver title for HTML siden som visses I browser bar. -->
-  <title> Retshjælpen Fyn </title>
+ <title> Støtteforening for retshjælpen Fyn Og Venner </title>
 </head>
 
 <body>
+ <!-- Header defineres her med nav  -->
+ <header>
+  <nav>
+   <!-- Her defineres nav logo, og en checkbox input til at vise og skjule header -->
+   <input type="checkbox" id="check">
+   <label for="check" class="checkbtn">
+    <i class="fa fa-bars"></i>
+   </label>
+   <span class="logo"><a href="index.html"> Retshjælpen </a></span>
+   <!--Unordered list og dens list items -->
+   <ul>
+    <li><a href="blivmedlem.html">Bliv Medlem</a></li>
+    <li><a href="tilmeld.html">Giv Bidrag</a></li>
+    <li><a href="OmOs.html">Mød Dit Netværk</a><a href="kontakt.html">Kontakt</a></li>
 
-  <!-- Header defineres her med nav  -->
-  <header>
-    <nav>
-      <!-- Her defineres nav logo, og en checkbox input til at vise og skjule header -->
-      <!-- input defineres med type checkbox, hvis checkbox er tjekket skjules ellers visses den -->
-      <input type="checkbox" id="check">
-      <label for="check" class="checkbtn">
-        <i class="fa fa-bars"></i>
-      </label>
-      <span class="logo"><a href="index.html"> Retshjælpen </a></span>
+   </ul>
+  </nav>
+ </header>
 
-      <!--Unordered list og dens list items som indhold a tag med hyperlink-->
-      <ul>
-       <li><a href="OmOs.html">Om Os</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="kontakt.html">Kontakt</a></li>
-        
+ <!-- Footer defineres her -->
+ <footer>
+  <div class="footer-content">
+   <ul class="socials">
+    <li><a href="https://www.facebook.com/Mohamed.Abdisamed"><i class="fa fa-facebook"></i></a></li>
 
-      </ul>
-    </nav>
-  </header>
+    <li><a href="https://dk.linkedin.com/in/mohamed-abdisamed-97496982"><i class="fa fa-linkedin-square"></i></a></li>
 
-  <!-- Footer defineres her -->
-  <footer>
-   <div class="footer-content">
-     <ul class="socials">
-       <li><a href="https://www.facebook.com/Mohamed.Abdisamed"><i class="fa fa-facebook"></i></a></li>
-       
-       <li><a href="https://dk.linkedin.com/in/mohamed-abdisamed-97496982"><i class="fa fa-linkedin-square"></i></a></li>
-       
-     </ul>
-   </div>
+   </ul>
+  </div>
  </footer>
 </body>
 
