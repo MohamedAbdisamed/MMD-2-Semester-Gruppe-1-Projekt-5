@@ -17,28 +17,21 @@
 
 <body>
   <!-- Header defineres her med nav  -->
-  <header>
-    <nav>
-      <!-- Her defineres nav logo, og en checkbox input til at vise og skjule header -->
-      <input type="checkbox" id="check">
-      <label for="check" class="checkbtn">
-        <i class="fa fa-bars"></i>
-      </label>
-      <span class="logo"><a href="index.html"> Retshjælpen </a></span>
-      <!--Unordered list og dens list items -->
-      <ul>
-       <li><a href="blivmedlem.html">Bliv Medlem</a></li>
-        <li><a href="tilmeld.html">Giv Bidrag</a></li>
-        <li><a href="OmOs.html">Mød Dit Netværk</a><a href="kontakt.html">Kontakt</a></li>
-
-
-
-
-
-
-      </ul>
-    </nav>
-  </header>
+  <header class="header dark maxwidth">
+    <H1><a href="/">Støtteforeningen for retshjælpen Fyns venner<span class="bar">Bar</span></a></H1>
+  <nav class="nav">
+      <div class="nav__burger-btn">
+          <div class="nav__burger"></div>
+      </div>
+      <ul class="nav__list">
+          <li class="nav__item center"><a href="#blivmedlem">Bliv Medlem</a></li>
+          <li class="nav__item center"><a href="#tilmeld">Giv bidrag</a></li>
+          <li class="nav__item center"><a href="#omos">Om os</a></li>
+          <li class="nav__item center"><a href="#ditnetværk">Dit netværk</a></li>
+          <li class="nav__item center"><a href="kontakt">kontakt</a></li>
+    </ul>
+  </nav>
+</header>
 
   <!-- Banner defineres her -->
   <section class="banner">
@@ -181,3 +174,4 @@
 
 </html>
 <script src="carousel.js"></script>
+<script src="master.js"></script>
