@@ -188,7 +188,7 @@ a:hover{
  justify-content: center;
  align-items: center;
  background:linear-gradient(to bottom, transparent -80%, black 100%),
-  url(https://images.unsplash.com/photo-1544027993-37dbfe43562a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80);
+  url(billeder/forbanner.png);
  background-size:cover;
 }
 
@@ -582,7 +582,7 @@ text-align:center;
 font-size: 36px;
 font-weight: 600;
 margin-bottom: 50px;
-color: white;
+color: bLACK;
 }
 
 
@@ -618,7 +618,7 @@ color: white;
    font-size: 16px;
  }
 
- .omMig, #kontakt{
+ .omOs, #kontakt{
    flex-direction: column;
  }
 
@@ -645,6 +645,7 @@ color: white;
    width: 100%;
 
  }
+
 
 .marginTop250{
  margin-top: 250px;
@@ -712,7 +713,7 @@ color: white;
    height: 20px;
 
  }
-.hr{
+ .omOs .hr, {
    margin: auto;
    margin-top:20px;
    margin-bottom: 20px;
@@ -739,9 +740,6 @@ color: white;
  height: auto;
  }
 
- 
- }
-
  .card-header{
    width: 100%;
    width: auto;
@@ -753,6 +751,8 @@ color: white;
    transform: scale(1.0);
  }
 
+ .mbottom{
+   margin-bottom: -50px;
  }
 
  .mtop{
