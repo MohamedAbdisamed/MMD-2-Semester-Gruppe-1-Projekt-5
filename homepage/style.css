@@ -448,7 +448,7 @@ opacity: 1;
 
 /* Grouping selector: fordi icon, h2 og span skal have det samme style*/
 .card i, h2, span {
- color:white;
+ color:black;
 }
 
 
