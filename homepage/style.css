@@ -238,7 +238,7 @@ a:hover{
  border-radius: 10px;
 }
 
-/* Section om mig derfineres her*/
+/* Section om os derfineres her*/
 
 .omOs{
  position: relative;
@@ -259,7 +259,7 @@ a:hover{
 .omOs .title{
  font-weight: 600;
  color: black;
- font-size: 24px;
+ font-size: 36px;
  margin-bottom: 10px;
 
 }
@@ -276,17 +276,13 @@ a:hover{
  min-height: 500px;
 }
 
-.migImage {
- background:url(/images/projekt3.png);
- background-size: cover;
 
-}
 
 .img-box:hover img{
 opacity: 1;
 }
 
-.omMigImg {
+ {
  max-width: 50%;
  width: 50%;
  text-align: end;
@@ -302,8 +298,8 @@ opacity: 1;
  padding: 10px 30px;
  text-decoration: none;
  font-size: 14px;
- color: #FFFFFF;
- background-color: #1db096;
+ color: #E0674D;
+ background-color: #00194E;
  border-radius: 5px;
  border: none;
  box-shadow: 4px 10px 30px rgb(24,139, 119,0.2);
@@ -327,13 +323,9 @@ opacity: 1;
  font-weight: 400;
 }
 
-/* Kompetenc section definees her */
-.blog{
- background:linear-gradient(to bottom, transparent -90%, black 100%),
-  url(https://images.unsplash.com/photo-1589149098258-3e9102cd63d3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=937&q=80);
- background-size:cover;
+
 }
-.blog .hr{
+.hr{
  border:2px solid #1db096;
  width:100px;
  margin:auto;
@@ -361,7 +353,7 @@ opacity: 1;
   url(https://source.unsplash.com/zv5QSKaP8G8/1920x1080 );
  background-size:cover;
 }
-.kontakt .hr, .portfolio .hr, .kontaktPage .hr{
+.kontakt .hr,  .hr, .kontaktPage .hr{
  border:2px solid #1db096;
  width:100px;
  margin:auto;
@@ -459,7 +451,7 @@ opacity: 1;
  color:white;
 }
 
-/*Portfolio */
+
 .projekttext{
  text-align:center;
 }
