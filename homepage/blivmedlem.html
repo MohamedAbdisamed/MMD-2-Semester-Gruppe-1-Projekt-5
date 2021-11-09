@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="da" xml:lang="da">
 
-  <head>
-    <!-- charset og encoding for at den kan læse å ø æ -->
-    <meta charset="utf-8" />
-    <!-- Dette giver browseren instruktioner om, hvordan jeg styrer sidens dimensioner og skalering. -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Social media icons hentes fra fontawesome  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Eksternal css fil kaldes her -->
-    <link rel="stylesheet" href="style.css">
-    <script src="blivmedlem.js" defer ></script>
-    <!-- angiver title for HTML siden som visses I browser bar. -->
-    <title> Støtteforening for retshjælpen Fyn Og Venner </title>
-  </head>
+<head>
+  <!-- charset og encoding for at den kan læse å ø æ -->
+  <meta charset="utf-8" />
+  <!-- Dette giver browseren instruktioner om, hvordan jeg styrer sidens dimensioner og skalering. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Social media icons hentes fra fontawesome  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Eksternal css fil kaldes her -->
+  <link rel="stylesheet" href="style.css">
+  <script src="blivmedlem.js" defer></script>
+  <!-- angiver title for HTML siden som visses I browser bar. -->
+  <title> Støtteforening for retshjælpen Fyn Og Venner </title>
+</head>
 
   <body>
     <!-- Header defineres her med nav  -->
@@ -33,131 +33,133 @@
           <li><a href="network.html">Mød dit netværk</a></li>
           <li><a href="kontakt_Mariam.html">Kontakt</a></li>
 
-        </ul>
-      </nav>
-    </header>
+      </ul>
+    </nav>
+  </header>
 
 
-        <main>
+  <main>
 
-          <h1>Bliv medlem</h1>
+    <h1>Bliv medlem</h1>
 
-          <section>
+    <section>
 
-          <div class="mor">
-            <div class="knappermor">
-              <button class="privat" type="button" name="button">Privat</button>
-              <button id="virksomhed" type="button" name="button">Virksomhed</button>
-            </div>
+      <div class="mor">
+        <div class="knappermor">
+          <button class="privat" type="button" name="button">Privat</button>
+          <button id="virksomhed" type="button" name="button">Virksomhed</button>
+        </div>
 
-            <div class="container">
-              <form action="action_page.php">
+        <div class="container">
+          <form action="action_page.php">
 
-                <label for="fornavn"></label>
-                <input type="text" id="fornavn" name="fornavn" placeholder="Fornavn">
+            <label for="fornavn"></label>
+            <input type="text" id="fornavn" name="fornavn" placeholder="Fornavn">
 
-                <label for="efternavn"></label>
-                <input type="text" id="efternavn" name="efternavn" placeholder="Efternavn">
+            <label for="efternavn"></label>
+            <input type="text" id="efternavn" name="efternavn" placeholder="Efternavn">
 
-                <label for="adresse"></label>
-                <input type="text" id="adresse" name="adresse" placeholder="Adresse">
+            <label for="adresse"></label>
+            <input type="text" id="adresse" name="adresse" placeholder="Adresse">
 
-                <label for="postnummer"></label>
-                <input type="text" id="postnummer" name="postnummer" placeholder="Postnummer">
+            <label for="postnummer"></label>
+            <input type="text" id="postnummer" name="postnummer" placeholder="Postnummer">
 
-                <label for="by"></label>
-                <input type="text" id="by" name="by" placeholder="By">
+            <label for="by"></label>
+            <input type="text" id="by" name="by" placeholder="By">
 
-                <label for="email"></label>
-                <input type="text" id="email" name="email" placeholder="Email">
+            <label for="email"></label>
+            <input type="text" id="email" name="email" placeholder="Email">
 
-                <label for="telefon"></label>
-                <input type="text" id="telefon" name="telefon" placeholder="Telefon">
+            <label for="telefon"></label>
+            <input type="text" id="telefon" name="telefon" placeholder="Telefon">
 
-                <label for="beløb"></label>
-                <input type="text" id="beløb" name="beløb" placeholder="Beløb i kr.">
+            <label for="beløb"></label>
+            <input type="text" id="beløb" name="beløb" placeholder="Beløb i kr.">
 
-                <p> Vælg betalingsmetode: </p>
-                <br>
+            <p> Vælg betalingsmetode: </p>
+            <br>
 
-                <button class="mobilepay" type="button" name="button">Mobilepay</button>
-                <button class="kort" type="button" name="button">Kort</button>
-                <br>
-                <br>
-                <br>
-                <button class="betal" onclick="myFunction()">Gå til betaling</button>
-
-
-              </form>
-            </div>
-          </div>
-
-            <div class="far">
-
-            <div class="knapperfar">
-              <button id="privat" type="button" name="button">Privat</button>
-              <button id="virksomhed" type="button" name="button">Virksomhed</button>
-            </div>
-
-            <div class="container2">
-              <form action="action_page.php">
-
-                <label for="virksomhed"></label>
-                <input type="text" id="virksomhedsnavn" name="virksomhed" placeholder="Virksomhed">
-
-                <label for="kontaktperson"></label>
-                <input type="text" id="kontaktperson" name="kontaktperson" placeholder="kontaktperson">
-
-                <label for="cvr"></label>
-                <input type="text" id="cvr" name="cvr" placeholder="CVR">
-
-                <label for="adresse"></label>
-                <input type="text" id="adresse" name="adresse" placeholder="Adresse">
-
-                <label for="postnummer"></label>
-                <input type="text" id="postnummer" name="postnummer" placeholder="Postnummer">
-
-                <label for="by"></label>
-                <input type="text" id="by" name="by" placeholder="By">
-
-                <label for="email"></label>
-                <input type="text" id="email" name="email" placeholder="Email">
-
-                <label for="telefon"></label>
-                <input type="text" id="telefon" name="telefon" placeholder="Telefon">
-
-                <label for="beløb"></label>
-                <input type="text" id="beløb" name="beløb" placeholder="Beløb i kr.">
-
-                <p> Vælg betalingsmetode: </p>
-                <br>
-
-                <button class="mobilepay" type="button" name="button">Mobilepay</button>
-                <button class="kort" type="button" name="button">Kort</button>
-                <br>
-                <br>
-                <br>
-                <button class="betal" onclick="myFunction()">Gå til betaling</button>
+            <button class="mobilepay" type="button" name="button">Mobilepay</button>
+            <button class="kort" type="button" name="button">Kort</button>
+            <br>
+            <br>
+            <br>
+            <button class="betal" onclick="myFunction()">Gå til betaling</button>
 
 
-              </form>
-            </div>
-          </div>
-          </section>
+          </form>
+        </div>
+      </div>
 
-        </main>
+      <div class="far">
 
-        <!-- Footer defineres her -->
-        <footer>
-          <div class="footer-content">
-            <ul class="socials">
-              <li><a href="https://www.facebook.com/StoetteforeningfynMMNSH"></i></a></li>
+        <div class="knapperfar">
+          <button id="privat" type="button" name="button">Privat</button>
+          <button id="virksomhed" type="button" name="button">Virksomhed</button>
+        </div>
 
-              <li><a href="https://www.linkedin.com/in/stoetteven/?fbclid=IwAR2PBmRZx5h2jnqC6chcprkK_TQvn_ddlXO8h40okcCWvnnMFhOpYlDdPDk"><i class="fa fa-linkedin-square"></i></a></li>
+        <div class="container2">
+          <form action="action_page.php">
 
-            </ul>
-          </div>
-        </footer>
-      </body>
+            <label for="virksomhed"></label>
+            <input type="text" id="virksomhedsnavn" name="virksomhed" placeholder="Virksomhed">
 
-    </html>
+            <label for="kontaktperson"></label>
+            <input type="text" id="kontaktperson" name="kontaktperson" placeholder="kontaktperson">
+
+            <label for="cvr"></label>
+            <input type="text" id="cvr" name="cvr" placeholder="CVR">
+
+            <label for="adresse"></label>
+            <input type="text" id="adresse" name="adresse" placeholder="Adresse">
+
+            <label for="postnummer"></label>
+            <input type="text" id="postnummer" name="postnummer" placeholder="Postnummer">
+
+            <label for="by"></label>
+            <input type="text" id="by" name="by" placeholder="By">
+
+            <label for="email"></label>
+            <input type="text" id="email" name="email" placeholder="Email">
+
+            <label for="telefon"></label>
+            <input type="text" id="telefon" name="telefon" placeholder="Telefon">
+
+            <label for="beløb"></label>
+            <input type="text" id="beløb" name="beløb" placeholder="Beløb i kr.">
+
+            <p> Vælg betalingsmetode: </p>
+            <br>
+
+            <button class="mobilepay" type="button" name="button">Mobilepay</button>
+            <button class="kort" type="button" name="button">Kort</button>
+            <br>
+            <br>
+            <br>
+            <button class="betal" onclick="myFunction()">Gå til betaling</button>
+
+
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer defineres her -->
+  <footer>
+    <div class="footer-content">
+      <ul class="socials">
+        <li><a href="https://www.facebook.com/StoetteforeningfynMMNSH"></i></a></li>
+
+        <li><a
+            href="https://www.linkedin.com/in/stoetteven/?fbclid=IwAR2PBmRZx5h2jnqC6chcprkK_TQvn_ddlXO8h40okcCWvnnMFhOpYlDdPDk"><i
+              class="fa fa-linkedin-square"></i></a></li>
+
+      </ul>
+    </div>
+  </footer>
+</body>
+
+</html>
