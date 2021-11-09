@@ -448,7 +448,7 @@ opacity: 1;
 
 /* Grouping selector: fordi icon, h2 og span skal have det samme style*/
 .card i, h2, span {
- color:black;
+ color:rgb(255, 255, 255);
 }
 
 
@@ -998,6 +998,10 @@ input[type=submit]:hover {
   margin: 0;
   font-weight: 400;
   letter-spacing: 2px;
+  
+}
+.title{
+  color: black;
 }
 
 .p-box-container{
@@ -1059,4 +1063,8 @@ margin: 20px 0px;
   transform: translateY(-10px);
   box-shadow: 5px 10px 30px rgba(0,0,0,0.1);
   transition: all ease 0.2s;
+}
+.video{
+  text-align:center;
+    width:100%;
 }
