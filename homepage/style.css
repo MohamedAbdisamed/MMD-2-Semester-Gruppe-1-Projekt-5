@@ -837,6 +837,18 @@ input[type=text], select, textarea {
   font-family: Kohinoor Bangla;
 }
 
+input[type=email] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: Kohinoor Bangla;
+}
+
 .mobilepay {
   color: black;
   padding: 12px 20px;
@@ -953,8 +965,8 @@ input[type=submit]:hover {
 }
 
 .iconMenu{
-  float: right; 
-  padding-top:30px; 
+  float: right;
+  padding-top:30px;
   padding-right:20px;
   font-size: 30px;
   color:white;
